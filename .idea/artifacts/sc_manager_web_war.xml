@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sc-manager-web:war">
+    <output-path>$PROJECT_DIR$/sc-manager-web/target</output-path>
+    <root id="archive" name="sc-manager.war">
+      <element id="artifact" artifact-name="sc-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

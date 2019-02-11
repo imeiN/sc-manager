@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/wx/common-service/common-service.iml" filepath="$USER_HOME$/wx/common-service/common-service.iml" />
+      <module fileurl="file://$USER_HOME$/wx/common-service/common-service-client/common-service-client.iml" filepath="$USER_HOME$/wx/common-service/common-service-client/common-service-client.iml" />
+      <module fileurl="file://$USER_HOME$/wx/common-service/common-service-common/common-service-common.iml" filepath="$USER_HOME$/wx/common-service/common-service-common/common-service-common.iml" />
+      <module fileurl="file://$USER_HOME$/wx/common-service/common-service-dao/common-service-dao.iml" filepath="$USER_HOME$/wx/common-service/common-service-dao/common-service-dao.iml" />
+      <module fileurl="file://$USER_HOME$/wx/common-service/common-service-web/common-service-web.iml" filepath="$USER_HOME$/wx/common-service/common-service-web/common-service-web.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform.iml" filepath="$USER_HOME$/wx/platform/platform.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-admin/platform-admin.iml" filepath="$USER_HOME$/wx/platform/platform-admin/platform-admin.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-api/platform-api.iml" filepath="$USER_HOME$/wx/platform/platform-api/platform-api.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-common/platform-common.iml" filepath="$USER_HOME$/wx/platform/platform-common/platform-common.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-framework/platform-framework.iml" filepath="$USER_HOME$/wx/platform/platform-framework/platform-framework.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-gen/platform-gen.iml" filepath="$USER_HOME$/wx/platform/platform-gen/platform-gen.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-mp/platform-mp.iml" filepath="$USER_HOME$/wx/platform/platform-mp/platform-mp.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-schedule/platform-schedule.iml" filepath="$USER_HOME$/wx/platform/platform-schedule/platform-schedule.iml" />
+      <module fileurl="file://$USER_HOME$/wx/platform/platform-shop/platform-shop.iml" filepath="$USER_HOME$/wx/platform/platform-shop/platform-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-manager.iml" filepath="$PROJECT_DIR$/sc-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-manager-client/sc-manager-client.iml" filepath="$PROJECT_DIR$/sc-manager-client/sc-manager-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-manager-common/sc-manager-common.iml" filepath="$PROJECT_DIR$/sc-manager-common/sc-manager-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-manager-dao/sc-manager-dao.iml" filepath="$PROJECT_DIR$/sc-manager-dao/sc-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-manager-web/sc-manager-web.iml" filepath="$PROJECT_DIR$/sc-manager-web/sc-manager-web.iml" />
+      <module fileurl="file://$USER_HOME$/wx/wx-api/wx-api.iml" filepath="$USER_HOME$/wx/wx-api/wx-api.iml" />
+      <module fileurl="file://$USER_HOME$/wx/wx-api/wx-api-client/wx-api-client.iml" filepath="$USER_HOME$/wx/wx-api/wx-api-client/wx-api-client.iml" />
+      <module fileurl="file://$USER_HOME$/wx/wx-api/wx-api-common/wx-api-common.iml" filepath="$USER_HOME$/wx/wx-api/wx-api-common/wx-api-common.iml" />
+      <module fileurl="file://$USER_HOME$/wx/wx-api/wx-api-dao/wx-api-dao.iml" filepath="$USER_HOME$/wx/wx-api/wx-api-dao/wx-api-dao.iml" />
+      <module fileurl="file://$USER_HOME$/wx/wx-api/wx-api-web/wx-api-web.iml" filepath="$USER_HOME$/wx/wx-api/wx-api-web/wx-api-web.iml" />
+    </modules>
+  </component>
+</project>

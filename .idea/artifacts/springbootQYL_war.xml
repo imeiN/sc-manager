@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springbootQYL:war">
+    <output-path>$PROJECT_DIR$/../springbootQYL-master/target</output-path>
+    <root id="archive" name="springbootQYL-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springbootQYL:war exploded" />
+    </root>
+  </artifact>
+</component>
