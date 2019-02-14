@@ -7,9 +7,9 @@
 
 
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/fulin-squeezy.log</file>
+        <file>logs/sc-manager.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/fulin-squeezy-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>logs/sc-manager-%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <layout class="ch.qos.logback.classic.PatternLayout">
@@ -26,13 +26,13 @@
 
     <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
 
-        <File>logs/fulin-squeezy-error.log</File>
+        <File>logs/sc-manager-error.log</File>
         <encoder>
             <Pattern>%date [%-5level]--[%logId] %c{40} %line --%mdc{client} %msg%n</Pattern>
             <charset>UTF-8</charset>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/fulin-squeezy-error-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <fileNamePattern>logs/sc-manager-error-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <maxHistory>7</maxHistory>
             <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>512MB</maxFileSize>

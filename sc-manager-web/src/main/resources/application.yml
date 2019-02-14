@@ -12,9 +12,9 @@ spring:
   ###################### mysql ###########################
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://database:3306/nideshop?allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&useSSL=false
-    username: dev
-    password: dev
+    url: jdbc:mysql://localhost:3306/nideshop?allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
   ####################### redis ##########################
   redis:
     host: localhost

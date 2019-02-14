@@ -5,6 +5,7 @@ import com.google.code.kaptcha.Producer;
 import com.mtgz.sc.manager.common.AppConstants;
 import com.mtgz.sc.manager.common.util.R;
 import com.mtgz.sc.manager.common.util.ShiroUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.crypto.hash.Sha256Hash;
 import org.apache.shiro.subject.Subject;
@@ -30,6 +31,7 @@ import java.io.IOException;
  * @date 2016年11月10日 下午1:15:31
  */
 @RestController
+@Slf4j
 public class SysLoginController {
     @Autowired
     private Producer producer;
@@ -77,6 +79,7 @@ public class SysLoginController {
         } catch (LockedAccountException e) {
             return R.error(e.getMessage());
         } catch (AuthenticationException e) {
+            log.error("账户验证失败", e);
             return R.error("账户验证失败");
         }
 
